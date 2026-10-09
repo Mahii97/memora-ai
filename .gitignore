@@ -1,10 +1,38 @@
+# Python virtual environments
 .venv/
+venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Frontend generated files
 frontend/node_modules/
 frontend/dist/
-__pycache__/
-*.py[cod]
+**/node_modules/
+
+# Environment variables and secrets
 backend/.env
 frontend/.env.local
+
+# Generated MemoraAI indexes and embeddings
+backend/data/bm25_index.json
+backend/data/vector_index.pkl
+backend/data/embeddings.npy
+backend/data/embedding_weights.npy
+backend/data/tokenized_chunks.json
+backend/data/training_pairs.json
+
+# Local uploads and databases
+backend/data/uploads/
+backend/data/memora.db
+backend/data/memora_backup_before_dedup.db
 backend/data/
-backend/Dataset/
+
+# Build output
+frontend/dist/
+
+# Generated evaluation results
 backend/evaluation_results/
