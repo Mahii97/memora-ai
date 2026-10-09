@@ -1,0 +1,10 @@
+.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+backend/.env
+frontend/.env.local
+backend/data/
+backend/Dataset/
+backend/evaluation_results/
